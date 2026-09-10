@@ -1,0 +1,32 @@
+START 
+// question 1 
+
+int number = 0 
+int sum = 0 
+float average = 0 
+FOR ( i = 0 ; i < 4 ; i++)
+    DISPLAY " Enter number: "
+    INPUT number 
+     sum = sum + number 
+
+    ENDFOR
+    average = sum/4
+    DISPLAY "This is the average : " , average 
+END 
+
+// question2 
+START
+float length
+float width 
+float perimeter
+perimeter = 0 
+
+DISPLAY " Enter length "
+DISPLAY " Enter width "
+INPUT length 
+INPUT width 
+
+perimeter = length * width 
+DISPLAY " This is the perimeter for a rectangle : ", perimeter
+ENDFOR  
+
